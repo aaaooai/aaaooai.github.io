@@ -14,5 +14,5 @@ theme = "shibui"
     weight = 1
   [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "https://aaaooai.github.io/aboutme/"
     weight = 2
