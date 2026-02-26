@@ -3,9 +3,16 @@ languageCode = 'ja-jp'
 title = '>&1'
 theme = "shibui"
 
+[markup]
+  [markup.highlight]
+    style = "emacs"
+    # style = "borland"
+
 [params]
-  author = "ﾀﾅｶ ﾄﾓｱｷ"
   email = "minazukijiro@gmail.com"
+
+[params.author]
+  name = "ﾀﾅｶ ﾄﾓｱｷ"
 
 [menu]
   [[menu.main]]
