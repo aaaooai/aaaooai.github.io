@@ -211,7 +211,7 @@ git push -u origin main
 
 ## まとめ
 
-これで Hugo を使ったブログが GitHub Pages で公開されました\^q^/
+これで Hugo を使ったブログが GitHub Pages で公開されました。
 
 - 記事を追加する場合: `hugo new posts/new-article.md` で作成
 - 更新する場合: git add, commit, push するだけで自動デプロイ
