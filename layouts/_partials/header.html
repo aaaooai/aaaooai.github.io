@@ -3,7 +3,7 @@
     <li class="current">
       {{- if .IsHome -}}
         ls /
-      {{- else if eq .RelPermalink "/about/" -}}
+      {{- else if or (eq .RelPermalink "/about/") (and (eq .Section "posts") .IsPage) -}}
         cat {{ template "pagepath" . -}}
       {{- else -}}
         ls {{ template "pagepath" . -}}
