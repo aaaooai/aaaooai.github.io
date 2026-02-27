@@ -1,0 +1,24 @@
+<nav class="path-nav">
+  <ol>
+    <li class="current">
+      {{- if .IsHome -}}
+        ls /
+      {{- else if eq .RelPermalink "/about/" -}}
+        cat {{ template "pagepath" . -}}
+      {{- else -}}
+        ls {{ template "pagepath" . -}}
+      {{- end -}}
+    </li>
+    <li>
+      <a href="/">{{ .Site.Title }}</a>
+    </li>
+  </ol>
+</nav>
+
+{{ define "pagepath" -}}
+  {{- if and .Parent (not .Parent.IsHome) -}}
+    {{- template "pagepath" .Parent -}}/{{ lower .Title }}
+  {{- else -}}
+    /{{ lower .Title -}}
+  {{- end -}}
+{{- end }}

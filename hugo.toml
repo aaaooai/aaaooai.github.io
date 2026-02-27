@@ -9,21 +9,21 @@ theme = "shibui"
 
 [menus]
   [[menus.main]]
-    name = 'Home'
+    name = 'home'
     pageRef = '/'
     weight = 10
 
   [[menus.main]]
-    name = "Posts"
+    name = "posts"
     pageRef = "/posts"
     weight = 20
 
   [[menus.main]]
-    name = "Tags"
+    name = "tags"
     pageRef = "/tags"
     weight = 30
 
   [[menus.main]]
-    name = "About"
-    url = "https://aaaooai.github.io/aboutme"
+    name = "about"
+    pageRef = "/about"
     weight = 40
