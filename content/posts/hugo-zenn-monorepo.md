@@ -1,12 +1,12 @@
 ---
 title: "GitHub Pages+HugoとZennの記事を1つのリポジトリで管理する"
 date: 2026-03-01T00:00:00+09:00
-draft: true
+draft: false
 tags: ["hugo", "zenn", "github-actions"]
 zenn_emoji: "📝"
 zenn_type: "tech"
 zenn_topics: ["hugo", "zenn", "githubactions"]
-zenn_published: false
+zenn_published: true
 ---
 
 このブログは GitHub Pages+Hugo で公開してるんですが、御上から「Zennにもクロスポストせよ」との掲示があったので対応していきます。
