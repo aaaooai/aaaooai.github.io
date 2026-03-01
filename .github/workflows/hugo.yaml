@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -20,6 +20,23 @@ defaults:
     shell: bash
 
 jobs:
+  sync-zenn:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
+      - name: Sync to Zenn articles
+        run: |
+          install -Dd articles
+          changed=$(git diff --name-only HEAD~1 HEAD -- 'content/posts/*.md')
+          for f in $changed; do ./scripts/sync-zenn.awk "$f"; done
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+          git add articles/
+          git diff --staged --quiet || (git commit -m 'sync articles from content/posts' && git push)
+
   build:
     runs-on: ubuntu-latest
     steps:

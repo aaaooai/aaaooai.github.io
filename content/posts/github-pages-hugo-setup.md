@@ -2,7 +2,11 @@
 title: "GitHub Pages + Hugo でブログを公開する"
 date: 2026-02-26T21:00:00+09:00
 draft: false
-tags: ["Hugo", "GitHub", "Pages"]
+tags: ["hugo", "github", "pages"]
+zenn_emoji: "🐖"
+zenn_type: "tech"
+zenn_topics: ["hugo", "github", "pages"]
+zenn_published: true
 ---
 
 ## はじめに

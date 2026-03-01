@@ -3,6 +3,10 @@ title: "mise で開発環境のツール管理をシンプルにする"
 date: 2026-02-27T00:00:00+09:00
 draft: false
 tags: ["mise", "env", "dev", "tools"]
+zenn_emoji: "🐖"
+zenn_type: "tech"
+zenn_topics: ["mise", "env", "dev", "tools"]
+zenn_published: true
 ---
 
 [前回](https://aaaooai.github.io/posts/github-pages-hugo-setup/)miseについて軽く話を出しました。インストール方法は次回だよっと。。。
