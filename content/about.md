@@ -54,12 +54,8 @@ Docker/Kubernetes、コンテナオーケストレーション、DevOps、Terraf
 ### 登壇
 
 - [Terraform CloudでIaC(Infrastructure as Code)について考えてみよう](https://www.youtube.com/live/IcrNIyKTgFE?si=FKg3LFFsmATqZ6jq)
-    とことんDevOps勉強会 | 第4回
 - [Kubernetes再入門 - Kubernetes活用するならこれだけは知っておきたいこと -](https://www.youtube.com/live/5e6MJvw0QqE?si=798SDC3Ujo56iBBr)
-    とことんDevOps勉強会 | 第8回
 - [これから始める継続的インテグレーション - GitHub Actions編](https://www.youtube.com/live/UDOUsUhu0Sw?si=tpzDfo-zoM6NvN-8)
-    とことんDevOps勉強会 | 第12回
 - [IaCコードリーディング -Terraformのコードを一緒に読んで行こう-](https://www.youtube.com/live/5EUGUudQ2sI?si=NTkS8V_LiBQJc2SJ)
-    とことんDevOps勉強会 | 第18回
 - [自動化と効率化のためにGitHub Actionsを使いこなそう](https://youtu.be/AYU7UyOPxtA?si=WoKiuTWMKtXLGmy4)
-    とことんDevOps勉強会 | 第23回
+- [脱・コピペ！自分で調べて書くK8sマニフェスト](https://youtu.be/F6QuTQ1UdIU?si=G0eKchIOyrxaRnOT)
