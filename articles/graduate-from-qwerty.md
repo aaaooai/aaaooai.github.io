@@ -29,7 +29,7 @@ canonical_url: https://aaaooai.github.io/posts/graduate-from-qwerty/
 
 私は[Corne Cherry v3](https://github.com/foostan/crkbd)を使ってて、[QMK](https://github.com/qmk/qmk_firmware)でキーボード側の配列を変更しました。
 
-https://github.com/aaaooai/qmk_firmware/blob/master/keyboards/crkbd/keymaps/mykbd-colemak-dh/keymap.c
+https://github.com/aaaooai/qmk_firmware/blob/master/keyboards/crkbd/keymaps/cmdh/keymap.c
 
 いくらタイピングが遅くてもずっとこれでいきます。
 
